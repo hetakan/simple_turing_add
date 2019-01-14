@@ -11,7 +11,7 @@ class SimpleAddTuringMachine
   attr_accessor :state, :head, :tape
  
   # init state
-  # 0110111 (1+1)
+  # 0110111 (1+2)
   #  ^ 
   def initialize(input)
     self.tape = input
